@@ -1,0 +1,25 @@
+<template>
+<div>
+  <b-carousel
+    id="carousel-fade"
+    style="text-shadow: 0px 0px 40px #000"
+    fade
+    indicators
+    img-width="800"
+    img-height="600"
+  >
+    <b-carousel-slide
+      caption=""
+      img-src="https://graacc.org.br/wp-content/uploads/2017/08/slider-hospital-825x510.jpg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      caption=""
+      img-src="https://afonsofranca.com.br/sitenovo/wp-content/uploads/2017/09/01-Graac-IMG_3874.jpg"
+    ></b-carousel-slide>
+    <b-carousel-slide
+      caption=""
+      img-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDPiioKURtYRSuB-v3fw7s_vGM9EPNmNM_8JlmCCkCrkFoKVF0&s"
+    ></b-carousel-slide>
+  </b-carousel>
+</div>
+</template>
